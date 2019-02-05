@@ -1,0 +1,335 @@
+html{
+	font-size: 50%;
+	  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+p, a{text-align: left;}
+
+
+.container-fluid{
+padding-left: 0px;
+padding-right: 0px; 
+
+}
+#header #nav .sub-arrow{ display: none;
+ }
+#sub-container{
+	min-height: 500px;
+	/*background: url(../Images/1.jpg); */
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#header{
+	height: 120px;
+	background: none;
+	width: 100%;
+	position: fixed;
+	background-color: #fff;
+	z-index: 1000;
+	border-bottom: 1px solid skyblue;
+}
+
+#header #logo{
+	height: 100%;
+	margin-left: 100px;
+	width: 30%;
+	margin-top: -20px;
+}
+#slogan{
+	clear: both;
+	margin-left: -200px;
+
+}
+
+/*Index style*/
+
+#en-form .form-data .input-group-addon{
+	background: none;
+	font-size: 14px;
+	font-weight: normal;
+	
+	
+}
+#en-form .form-data .form-control{
+		font-size: 14px;
+	font-weight: normal;
+}
+
+
+
+#header #nav{
+	width: 65%;
+	margin-right: 100px;
+	float: right;
+	margin-top: -30px;
+	padding-left: 100px;
+}
+
+#header #nav ul li{
+	margin-left: 0px;
+}
+#header ul li :hover{background: #fff;}
+#header li .dropdown-menu li:hover{background: skyblue;}
+
+#header #nav ul li a{
+	font-size: 14px;
+	font-weight: normal;
+}
+
+#header #nav ul li.dropdown:hover >.dropdown-menu{
+	display: block;
+}
+
+#header #nav ul li a:hover{
+	text-decoration: none;
+	font-weight: bold;
+	color: #000;
+}
+
+#logo img{
+	height: 110px;
+	width: 110px;
+	float: left;
+	border-radius: 100%;
+}
+#logo #company-name{
+	float: left;
+	margin-top: 50px;
+	margin-left: 10px;
+}
+#logo a:hover{
+	text-decoration: none;
+}
+
+
+/*#info-shortcut{
+width: 100%;
+height: 20px;
+background: #000;
+vertical-align: middle;
+
+}
+#info-shortcut-email{
+	margin-left: 100px;
+	float: left;
+	color: #fff;
+}
+	#info-shortcut-phone{
+		margin-right: 100px;
+		float: right;
+		color: #fff;
+	}
+*/
+
+
+.footer{
+	height: 50px;
+	background: #000;
+	text-align: center;
+	padding-top: 15px;
+	/*margin-top: 500px; */
+	clear: both;
+	color: #fff;
+	
+}
+
+/*#theCarousel{
+	width: 100%;
+	height: 620px;
+
+}
+
+ #theCarousel .carousel .carousel-cell{
+	width: 100%;
+	height: 620px;
+	padding-bottom: -100px;
+	margin-left: 20px;
+} */
+
+.associate{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 200px;
+	height: auto;
+	margin-top: 80px;
+}
+
+
+/*#theCarousel .flickity-page-dots .dot{display: none;}
+#theCarousel .flickity-prev-next-button{display: none;} */
+
+#whyus{
+	margin-top: -20px;
+	width: 100%;
+	height: 250px;
+	background: #000;
+}
+.whyus{
+	padding-top: 10px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#student-testimonials {
+	padding-top: 10px;
+	width: 100%;
+	height: 360px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #D0E2F5;
+
+}
+#student-testimonials .carousel{
+	background: none;
+}
+#student-testimonials .carousel .carousel-cell{
+	width: 100%;
+	height: 100%;
+
+}
+#student-testimonials .carousel .carousel-cell p{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#student-testimonials  .flickity-viewport{
+	height: 250px;
+
+}
+
+#student-testimonials img{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+}
+
+#quick_links{
+	width: 100%;
+	height: 250px;
+	background: #2E2F30;
+	color: #fff;
+}
+.quick_links{
+	width: 80%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto; 
+}
+.quick_links .row p{
+text-align: left;
+}
+.quick_links .row #news{
+	height: 200px;
+}
+
+#what-we-offer{
+	width: 100%;
+	height: 300px;
+	background: none;
+	margin-top: -20px;
+
+}
+.what-we-offer{
+	padding-top: 10px;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	height: 100%;
+	background: none;
+}
+.what-we-offer h1, p{
+	text-align: center;
+}
+.what-we-offer .row h3{text-align: center;}
+.what-we-offer .row p{
+	text-align: left;
+	padding: 5px;
+}
+.what-we-offer .row li{
+	margin-top: 5px;
+	display: block;
+}
+#box{
+	height: 250px;
+	margin-left: 20px;
+	width: 30%;
+	background: #000;
+	border-bottom-left-radius: 30px;
+	border-top-right-radius: 30px; 
+}
+
+.video-container {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 0;
+  padding-bottom: 56.25%; /* calculate by aspect ratio (h / w * 100%) */
+}
+.video-container .video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+   overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+
+
+
+
+/*About Style Started*/
+.row #testimonials_thumbnail{
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+}
+
+#ttestimonials_thumbnail{
+	height: 200px;
+	
+}
+#ttestimonials_thumbnail #image{
+	width: 25%;
+	float: left;
+}
+#ttestimonials_thumbnail #image img{
+	width: 120px;
+	height: 120px;
+}
+
+#contact_form{width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+float: left;}
+#contact_form form input {width: 300px; height: 45px; border: 1px solid #000;  padding: 5px; margin-left: 20px; margin-right: 20px; margin-top: 5px;}
+#contact_form form textarea{width: 94.5%; height: 200px; border: 1px solid #000;  padding: 5px; margin-left: 20px; margin-top: 5px;}
+#contact_form form #submit{width: 90px; border: 0px solid #F60; border-radius: 5px; background:green; color: #fff;}
+#contact_form form #submit:hover {/*background: none; color: #fff; font-weight:bold; */ color: #fff;
+font-weight: bold;
+background: linear-gradient(to right, white 50%, blue 50%);
+background-size: 200% 100%;
+transition: all 1s ease;
+background-position:right bottom;
+}
+
+ #nav .dropdown-menu li{
+ 	min-width: 200px;
+ }
+/*.nav .open > a
+{
+    background:none !important;
+}
+.has-submenu > a{
+	background: none;
+}*/
+
+
+
+/*Media Query Started*/
+

@@ -1,0 +1,19 @@
+#login{
+	text-align: center;
+}
+#login form input{
+	width: 250px;
+	height: 40px;
+}
+#login #form-txt{
+	font-size: 15px;
+	font-weight: bold;
+
+}
+
+#name{
+	width: 20%;
+	float: right;
+	height: 100%;
+	
+}
