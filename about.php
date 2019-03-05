@@ -108,7 +108,7 @@ else if ($topic == "message_from_md") {
 
 
 </div>
-<div class="footer">&copy; Oblique Education Foundation Pvt. Ltd.</div>
+<div class="footer">&copy; Oblique Education Foundation Pvt. Ltd., Koteshwor</div>
 </div>
 <script type="text/javascript" src="Scripts/jquery.min.js"></script>
 <script type="text/javascript" src="Scripts/bootsrap.min.js"></script>
